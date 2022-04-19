@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<head>
+      <body>
+        <h1>JavaScript is funny</h1>
+        <script type="text/javascript" src="welcome.js"></script>
+      </body>
+    </head>
+<body>
+    <h3>A demonstration of how to access a Text Field</h3>
+
+<input type="text" id="myText" value="Lucifer">
+
+<p>Click the "Try it" button to get the text in the text field.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+<h4>Lucifer</h4>
+<h5>Is an interpreted scripting language (code is not precompiled).
+    It is used to add interactive behavior to HTML pages.
+    You can embed it directly into an HTML page, but writing it as a separate JS file helps separate structure from behavior.
+    Unlike server-side scripting languages such as PHP and ASP, JavaScript is primarily used as a client-side scripting language to run on the user's browser and does not require server support. So in the early days programmers preferred JavaScript to reduce the burden on the server, but at the same time brought another issue: security.
+    
+    As servers get stronger, JavaScript continues to thrive because it's cross-platform and easy to use, although today's programmers prefer scripts run on the server side for security. At the same time, some special functions, such as AJAX, must rely on Javascript to support them on the client side. With the development of engines such as V8 and frameworks such as Node.js, with features such as event-driven and asynchronous IO, JavaScript is increasingly being used to write server-side programs.</h5>
+    
+</body>
+</html>
